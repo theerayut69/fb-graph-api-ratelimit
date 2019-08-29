@@ -16,7 +16,7 @@ var options = {
   }
 }
 
-for (var i = 0; i < 210; i++) {
+for (var i = 0; i < 10; i++) {
     var req = http.request(options, function (res) {
         var chunks = []
     
