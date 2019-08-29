@@ -5,6 +5,9 @@ Quickstart
 
 
 ```bash
-    # Test ratelimit
-    $ node fb-ratelimit.js
+    # Test ratelimit by postman format
+    $ node app/fb-ratelimit.js  
+
+    # Test ratelimit by axios
+    $ node app/axios-ratelimit.js  
 ```
