@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ratelimit": "node app/axios-ratelimit.js",
-    "fb-postman": "node app/fb-ratelimit.js ",
+    "ratelimit": "node src/axios-ratelimit.js",
+    "fb-postman": "node src/fb-ratelimit.js ",
     "test": "jest"
   },
   "keywords": [],
