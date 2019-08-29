@@ -6,12 +6,15 @@
   "scripts": {
     "ratelimit": "node src/axios-ratelimit.js",
     "fb-postman": "node src/fb-ratelimit.js ",
+    "build": "babel src --presets env -d dist",
     "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "jest": "^24.9.0"
   },
   "dependencies": {
